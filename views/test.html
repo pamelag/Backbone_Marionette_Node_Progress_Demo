@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>Progress Bar Tests</title>
+    <link rel="stylesheet" href="stylesheets/bootstrap.css">
+    <link rel="stylesheet" href="stylesheets/bootstrap-responsive.css">
+    <link rel="stylesheet" href="javascripts/test/lib/mocha.css"/>
+    <link rel="stylesheet" href="stylesheets/progressbar.css"/>
+    <style>
+        /*#mocha{margin: 0px;}*/
+        #mocha-stats{top: 55px;height: 100px;}
+        .progress{height: 40px;}
+    </style>
+</head>
+<body>
+<div class="navbar navbar-fixed-top">
+    <div class="navbar-inner">
+        <div class="container">
+
+
+            <a href="#" class="brand">Optus ProgressBar Test</a>
+
+            <ul class="nav">
+                <li><a href="/">Demo</a></li>
+                <li class="active"><a href="#">Run Tests</a></li>
+                <li><a href="/notes">Notes</a></li>
+            </ul>
+
+        </div>
+    </div>
+</div>
+<div class="test-label">Progress Bar Tests</div>
+<div id="mocha"></div>
+<script data-main="javascripts/test/SpecRunner.js" src="javascripts/app/require.js"></script>
+</body>
+</html>

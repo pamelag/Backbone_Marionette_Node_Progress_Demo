@@ -1,0 +1,8 @@
+{
+  "name": "ProgressBar",
+  "version": "0.0.1",
+  "private": true,
+    "devDependencies": {
+    "mocha-phantomjs": "~3.1.5"
+  }
+}

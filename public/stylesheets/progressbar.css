@@ -1,0 +1,21 @@
+.ui-progressbar {
+  position: relative; }
+
+.progress-label {
+  position: absolute;
+  left: 50%;
+  top: 4px;
+  font-weight: normal;
+  text-shadow: 1px 1px 0 #fff; }
+
+.progress-wrapper {
+  padding-top: 10px;
+  padding-bottom: 15px; }
+
+.test-label {
+  font: 20px/1.5 Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 2em;
+  font-weight: 200;
+  color: #76beba;
+  padding-left: 50px;
+  padding-top: 40px; }

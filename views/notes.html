@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>Progress Bar Tests</title>
+    <link rel="stylesheet" href="stylesheets/bootstrap.css">
+    <link rel="stylesheet" href="stylesheets/bootstrap-responsive.css">
+
+</head>
+<body>
+<div class="navbar navbar-fixed-top">
+    <div class="navbar-inner">
+        <div class="container">
+
+
+            <a href="#" class="brand">Optus ProgressBar Test</a>
+
+            <ul class="nav">
+                <li><a href="/">Demo</a></li>
+                <li><a href="/test">Run Tests</a></li>
+                <li class="active"><a href="#">Notes</a></li>
+            </ul>
+
+        </div>
+    </div>
+</div>
+<div class="row-fluid span12" style="padding-top: 50px;">
+
+    <h3>Technology stack</h3>
+    <p>
+        <ul>
+            <li>
+                Client-side MVC framework: Backbone.js along with Marionette.js
+            </li>
+            <li>
+                Modular Dependencies: Require.js
+            </li>
+            <li>
+                CSS Libraries: Twitter Bootstrap Responsive, CSS Pre-processor: SASS
+            </li>
+
+            <li>
+                Testing framework: Mocha
+            </li>
+            <li>
+                Server: Node.js, Middleware: Express.js
+            </li>
+
+            <li>
+                Version control: Git
+            </li>
+            <li>
+                Deployment Environment: Appfog Cloud-based PAAS provider
+            </li>
+        </ul>
+    </p>
+
+    <p>
+    <h3>My Approach</h3>
+    <ul>
+    <li>
+        I wanted to showcase how I have used Backbone Model and Collection objects along with Marionette Views to create the demo.
+    </li>
+    <li>
+        The Model object that I have created for this test is called "ProgressMappingModel.js", with progress bar specific functions for incrementing and decrementing progress.
+    </li>
+    <li>
+        The View object handles the events and invokes Model functions and reflects the output back into the DOM.
+    </li>
+    <li>
+        The presence of Multiple progress bars in the demo are handled by having a Collection of "ProgressMappingModel" Model objects and proved to be useful due to convenient functions provided by Collections API.
+    </li>
+    <li>
+        The separation of Presentation logic in the Model helped me perform the Tests.
+    </li>
+    </ul>
+
+    </p>
+
+</div>
+</body>
+</html>
