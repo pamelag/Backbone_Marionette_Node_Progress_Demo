@@ -1,0 +1,31 @@
+body{background-color: #F7F7F6;}
+.login{padding-top: 165px;}
+.center{float: none; margin-left: auto; margin-right: auto;}
+
+.box {
+    margin-bottom: 20px;
+    position: relative;
+}
+.box .box-content {
+    background: none repeat scroll 0 0 white;
+    border: 1px solid #DDDDDD;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.055);
+    display: block;
+    padding: 10px;
+}
+.box-statistic {
+    background-color: #FFFFFF;
+    margin-bottom: 5px;
+    padding: 5px 10px;
+    position: relative;
+    width:100px;
+}
+
+#workarea {
+    padding-top: 100px;
+}
+
+
+
+
+

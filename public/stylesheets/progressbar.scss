@@ -1,0 +1,26 @@
+$color1:#76beba;
+$font1:20px/1.5 Helvetica Neue,Helvetica,Arial,sans-serif;
+
+.ui-progressbar {
+  position: relative;
+}
+.progress-label {
+  position: absolute;
+  left: 50%;
+  top: 4px;
+  font-weight: normal;
+  text-shadow: 1px 1px 0 #fff;
+}
+.progress-wrapper {
+  padding-top: 30px;
+  padding-bottom: 15px
+}
+
+.test-label {
+  font:$font1;
+  font-size: 2em;
+  font-weight: 200;
+  color: $color1;
+  padding-left:50px;
+  padding-top: 40px;
+}
